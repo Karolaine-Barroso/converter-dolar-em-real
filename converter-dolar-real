@@ -1,0 +1,5 @@
+print("converta dólares em reais")
+valor_dolar = float(input("digite aqui o valor em dólar: "))
+cotação_do_dolar = float(input("digite aqui a cotação do dólar: "))
+valor_real = valor_dolar*cotação_do_dolar
+print(f"O valor em reais é R$ {valor_real:.2f}")
